@@ -1,22 +1,3 @@
-// const trafficLightEl = document.querySelector("#trafficLight");
-// const trafficColor = document.querySelector(".trafficLight");
-// function makeGreen() {
-//   trafficColor.style.background = "green";
-//   trafficColor.removeEventListener("click", makeGreen);
-//   trafficColor.addEventListener("click", makeYellow);
-// }
-// function makeYellow() {
-//   trafficColor.style.background = "yellow";
-//   trafficColor.removeEventListener("click", makeYellow);
-//   trafficColor.addEventListener("click", makeRed);
-// }
-// function makeRed() {
-//   trafficColor.style.background = "red";
-//   trafficColor.removeEventListener("click", makeRed);
-//   trafficColor.addEventListener("click", makeGreen);
-// }
-// trafficColor.addEventListener("click", makeGreen);
-// console.log("cliced");
 const trafficElement = document.querySelectorAll(".trafficLight");
 trafficElOne = trafficElement[0];
 trafficElTwo = trafficElement[1];
